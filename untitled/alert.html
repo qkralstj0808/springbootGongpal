@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>alert</title>
+    <style>
+        .alert-box{
+            background: #e4e4e4;
+            color: black;
+            padding: 20px;
+            border-radius: 5px;
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+<div class="alert-box" id="alert">
+    <p>Alert Box</p>
+<button id="close">닫기</button>
+</div>
+<button id="open">버튼</button>
+
+<script>
+
+
+  ument.getElementById('close').addEventListener('click',function (){
+        document.getElementById('alert').style.display='none';
+    });
+    document.getElementById('open').addEventListener('block',function (){
+        document.getElementById('alert').style.display='status';
+    });
+
+</script>
+
+
+</body>
+</html>
